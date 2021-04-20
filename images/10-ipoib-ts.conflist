@@ -1,0 +1,11 @@
+{
+  "name": "k8s-pod-network",
+  "cniVersion": "0.3.1",
+  "plugins": [
+    {
+      "type": "ipoib-ts",
+      "network": "172.24.0.0/13",
+      "ibdev": "ib0"
+    }
+  ]
+}
